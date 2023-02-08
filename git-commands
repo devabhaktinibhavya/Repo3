@@ -1,13 +1,11 @@
 git init
-
 git config --global user.name "Polarapu Prasad"
 git config --global user.email "devopstraining2015@gmail.com"
 git log
-git show cid
+git show 
 git config --global --unset user.name
 git config --global --unset user.email
 git config --list
-
 git config --global --unset user.name
 git config --global --unset user.email
 git status
@@ -15,9 +13,6 @@ git add file1
 git status
 git commit -m "label" file1
 git show cid
-
-==================
-
 touch file1
 ls
 git status
@@ -27,7 +22,13 @@ git commit -m "label" file1
 git status
 git log
 git show cid
+git add file1  (workspace to staging)
+git reset head file1  (staging to workspace)
 
+git commit -m "label"  (staging to local)
+git reset --soft cid  (local to staging)
+
+git reset --mixed cid  (local to workspac
 
 touch file2 file3 file4 
 git status
