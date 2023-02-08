@@ -34,12 +34,13 @@ git log
 git show cid
 git add file1  (workspace to staging)
 git reset head file1  (staging to workspace)
-<<<<<<< HEAD
+
 git add -A
 
-=======
+git add
+touch fi
 touch file1
->>>>>>> 1fc2174 (sample commit)
+
 git commit -m "label"  (staging to local)
 git reset --soft cid  (local to staging)
 
@@ -92,7 +93,7 @@ git status
 git commit -m "deleted file"
 git push
 
-=================================
+
 git clone https://github.com/polarapu/batch80.git
 ls
 cd batch80
@@ -115,7 +116,7 @@ git pull --rebase
 git push
 
 
-=================
+
 mkdir prasad-dir
 ls
 cd prasad-dir
@@ -129,7 +130,7 @@ git push
 git pull --rebase
 git push
 
-===================
+
 rm -rf f3
 cd ..
 git status
@@ -139,7 +140,7 @@ git push
 
 
 Logs
-====
+
 git log
 git log -n
 git log --oneline
