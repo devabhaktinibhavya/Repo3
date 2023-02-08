@@ -8,7 +8,7 @@ git config --global --unset user.name
 git config --global --unset user.email
 
 git log
-git show c
+git show cid
 
 git config --global --unset user.name
 git config --global --unset user.email
@@ -21,7 +21,8 @@ git add file1
 git status
 git commit -m "label" file1
 git show 
-
+git log
+git show cid
 
 touch file1
 ls
