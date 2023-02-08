@@ -18,7 +18,9 @@ git status
 git add file1
 git status
 git commit -m "label" file1
-git show cid
+git show 
+
+
 touch file1
 ls
 git status
