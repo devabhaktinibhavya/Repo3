@@ -34,8 +34,12 @@ git log
 git show cid
 git add file1  (workspace to staging)
 git reset head file1  (staging to workspace)
+<<<<<<< HEAD
 git add -A
 
+=======
+touch file1
+>>>>>>> 1fc2174 (sample commit)
 git commit -m "label"  (staging to local)
 git reset --soft cid  (local to staging)
 
