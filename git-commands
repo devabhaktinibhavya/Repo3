@@ -2,8 +2,12 @@ git init
 
 git config --global user.name "Polarapu Prasad"
 git config --global user.email "devopstraining2015@gmail.com"
+
 git config --global --unset user.name
 git config --global --unset user.email
+
+git log
+git show cid
 
 git config --list
 
@@ -14,9 +18,6 @@ git add file1
 git status
 git commit -m "label" file1
 git show cid
-
-==================
-
 touch file1
 ls
 git status
