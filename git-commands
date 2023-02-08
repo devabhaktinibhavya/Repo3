@@ -1,6 +1,10 @@
 git init
+
 git log
 git show cid
+
+git diff
+
 git config --global user.name "Polarapu Prasad"
 git config --global user.email "devopstraining2015@gmail.com"
 touch file1
