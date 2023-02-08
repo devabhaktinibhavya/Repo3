@@ -7,6 +7,11 @@ git config --list
 
 git config --global --unset user.name
 git config --global --unset user.email
+git status
+git add file1
+git status
+git commit -m "label" file1
+git show cid
 
 ==================
 
