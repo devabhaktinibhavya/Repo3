@@ -3,6 +3,11 @@ git log
 git show cid
 git config --global user.name "Polarapu Prasad"
 git config --global user.email "devopstraining2015@gmail.com"
+touch file1
+ls
+git status
+git add file1
+git status
 
 
 git config --global --unset user.name
