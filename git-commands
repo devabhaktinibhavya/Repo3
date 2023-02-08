@@ -4,7 +4,8 @@ git config --global user.name "Polarapu Prasad"
 git config --global user.email "devopstraining2015@gmail.com"
 git log
 git show cid
-
+git config --global --unset user.name
+git config --global --unset user.email
 git config --list
 
 git config --global --unset user.name
